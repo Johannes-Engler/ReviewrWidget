@@ -11,6 +11,8 @@ public struct ReviewrWidget: View {
 
     var asin: String?
     var baseUrl: String
+
+    public init() {}
         
     public var body: some View {
         VStack {
