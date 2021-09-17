@@ -6,14 +6,31 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		D506654926F51EAB00B1DF2A /* reviewrWidget */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D506654C26F51EAB00B1DF2A /* Build configuration list for PBXAggregateTarget "reviewrWidget" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = reviewrWidget;
+			productName = reviewrWidget;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		D5CFD6BD26F4B514000A3C78 /* ReviwerWidget.h in Headers */ = {isa = PBXBuildFile; fileRef = D5CFD6BB26F4B514000A3C78 /* ReviwerWidget.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5CFD6C426F4B57C000A3C78 /* ReviewrWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CFD6C326F4B57C000A3C78 /* ReviewrWidget.swift */; };
+		D5CFD6C626F4B59E000A3C78 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CFD6C526F4B59E000A3C78 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D5CFD6B826F4B514000A3C78 /* ReviwerWidget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReviwerWidget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5CFD6BB26F4B514000A3C78 /* ReviwerWidget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReviwerWidget.h; sourceTree = "<group>"; };
 		D5CFD6BC26F4B514000A3C78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5CFD6C326F4B57C000A3C78 /* ReviewrWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewrWidget.swift; sourceTree = "<group>"; };
+		D5CFD6C526F4B59E000A3C78 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +65,8 @@
 			children = (
 				D5CFD6BB26F4B514000A3C78 /* ReviwerWidget.h */,
 				D5CFD6BC26F4B514000A3C78 /* Info.plist */,
+				D5CFD6C326F4B57C000A3C78 /* ReviewrWidget.swift */,
+				D5CFD6C526F4B59E000A3C78 /* WebView.swift */,
 			);
 			path = ReviwerWidget;
 			sourceTree = "<group>";
@@ -92,8 +111,12 @@
 			attributes = {
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
+					D506654926F51EAB00B1DF2A = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
 					D5CFD6B726F4B514000A3C78 = {
 						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
 					};
 				};
 			};
@@ -111,6 +134,7 @@
 			projectRoot = "";
 			targets = (
 				D5CFD6B726F4B514000A3C78 /* ReviwerWidget */,
+				D506654926F51EAB00B1DF2A /* reviewrWidget */,
 			);
 		};
 /* End PBXProject section */
@@ -130,12 +154,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5CFD6C426F4B57C000A3C78 /* ReviewrWidget.swift in Sources */,
+				D5CFD6C626F4B59E000A3C78 /* WebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		D506654A26F51EAB00B1DF2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WLGM5KP3LQ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D506654B26F51EAB00B1DF2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WLGM5KP3LQ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		D5CFD6BE26F4B514000A3C78 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -261,6 +305,8 @@
 		D5CFD6C126F4B514000A3C78 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = WLGM5KP3LQ;
@@ -277,6 +323,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = reviwer.ai.ReviwerWidget;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -285,6 +332,8 @@
 		D5CFD6C226F4B514000A3C78 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = WLGM5KP3LQ;
@@ -309,6 +358,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D506654C26F51EAB00B1DF2A /* Build configuration list for PBXAggregateTarget "reviewrWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D506654A26F51EAB00B1DF2A /* Debug */,
+				D506654B26F51EAB00B1DF2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D5CFD6B226F4B514000A3C78 /* Build configuration list for PBXProject "ReviwerWidget" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
