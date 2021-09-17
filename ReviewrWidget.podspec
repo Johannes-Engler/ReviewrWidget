@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "ReviewrWidget"
-  spec.version      = "0.1.1"
+  spec.version      = "0.1.2"
   spec.summary      = "Includes the reviewr.ai widget in an widget ready for iOS."
 
   # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
   We dont need a longer description -> you can look everything up on reviewr.ai
                    DESC
 
-  spec.homepage     = "https://github.com/Johannes-Engler/ReviwerWidget"
+  spec.homepage     = "https://github.com/Johannes-Engler/ReviewrWidget"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/Johannes-Engler/ReviwerWidget", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/Johannes-Engler/ReviewrWidget", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
