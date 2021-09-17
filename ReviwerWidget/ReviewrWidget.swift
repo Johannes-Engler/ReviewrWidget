@@ -9,11 +9,14 @@ import SwiftUI
 public struct ReviewrWidget: View {
     @StateObject var renderedHeight = RenderedHeight()
 
-    var asin: String?
+    var asin: String
     var baseUrl: String
 
-    public init() {}
-        
+    public init(asin: String, baseUrl: String) {
+        self.asin = asin
+        self.baseUrl = baseUrl
+    }
+    
     public var body: some View {
         VStack {
         GeometryReader {
