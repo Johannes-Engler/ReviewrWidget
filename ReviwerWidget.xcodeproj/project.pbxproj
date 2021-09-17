@@ -20,12 +20,14 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		D506654E26F521C900B1DF2A /* ReviewrWidget.podspec in Resources */ = {isa = PBXBuildFile; fileRef = D506654D26F521C900B1DF2A /* ReviewrWidget.podspec */; };
 		D5CFD6BD26F4B514000A3C78 /* ReviwerWidget.h in Headers */ = {isa = PBXBuildFile; fileRef = D5CFD6BB26F4B514000A3C78 /* ReviwerWidget.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D5CFD6C426F4B57C000A3C78 /* ReviewrWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CFD6C326F4B57C000A3C78 /* ReviewrWidget.swift */; };
 		D5CFD6C626F4B59E000A3C78 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CFD6C526F4B59E000A3C78 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D506654D26F521C900B1DF2A /* ReviewrWidget.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReviewrWidget.podspec; sourceTree = "<group>"; };
 		D5CFD6B826F4B514000A3C78 /* ReviwerWidget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReviwerWidget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5CFD6BB26F4B514000A3C78 /* ReviwerWidget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReviwerWidget.h; sourceTree = "<group>"; };
 		D5CFD6BC26F4B514000A3C78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +49,7 @@
 		D5CFD6AE26F4B514000A3C78 = {
 			isa = PBXGroup;
 			children = (
+				D506654D26F521C900B1DF2A /* ReviewrWidget.podspec */,
 				D5CFD6BA26F4B514000A3C78 /* ReviwerWidget */,
 				D5CFD6B926F4B514000A3C78 /* Products */,
 			);
@@ -144,6 +147,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D506654E26F521C900B1DF2A /* ReviewrWidget.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
